@@ -1,0 +1,60 @@
+{
+  "info": {
+    "_postman_id": "99826828-0330-41c5-a7a8-ccc304545867",
+    "name": "Garage",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Status",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "localhost:8011/garage/status"
+      },
+      "response": []
+    },
+    {
+      "name": "Park",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "localhost:8011/garage/park?plate=34-cay-23123&colour=Yellow&vehicleType=Car",
+          "host": [
+            "localhost"
+          ],
+          "port": "8011",
+          "path": [
+            "garage",
+            "park"
+          ],
+          "query": [
+            {
+              "key": "plate",
+              "value": "34-cay-23123"
+            },
+            {
+              "key": "colour",
+              "value": "Yellow"
+            },
+            {
+              "key": "vehicleType",
+              "value": "Car"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Leave",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": "localhost:8011/garage/leave/38e55dc9-f463-4269-8d56-0c3d03eb9cc1"
+      },
+      "response": []
+    }
+  ]
+}
