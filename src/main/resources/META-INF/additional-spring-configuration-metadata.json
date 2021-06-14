@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "iyzi.apiKey",
+      "type": "java.lang.String",
+      "description": "Description for iyzi.apiKey."
+    },
+    {
+      "name": "iyzi.secretKey",
+      "type": "java.lang.String",
+      "description": "Description for iyzi.secretKey."
+    },
+    {
+      "name": "iyzi.baseUrl",
+      "type": "java.lang.String",
+      "description": "Description for iyzi.baseUrl."
+    },
+    {
+      "name": "app.url",
+      "type": "java.lang.String",
+      "description": "Description for app.url."
+    },
+    {
+      "name": "app.mail",
+      "type": "java.lang.String",
+      "description": "Description for app.mail."
+    }
+  ]
+}
