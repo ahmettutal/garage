@@ -17,7 +17,7 @@ spring:
       validation-query: SELECT 1
       time-between-eviction-runs-millis: 10000
     driver-class-name: org.postgresql.Driver
-    initialization-mode: always
+    initialization-mode: embedded
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     properties:

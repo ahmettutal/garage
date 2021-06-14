@@ -17,6 +17,7 @@ public class StatusResponse extends BaseResponse {
     }
 
     public StatusResponse(String message) {
+        super.setSuccess(true);
         super.setMessage(message);
     }
 
